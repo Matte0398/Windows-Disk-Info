@@ -4,6 +4,7 @@ The program collects fixed logical disk information from one or more Windows com
 
 ## Contents
 
+- [Repository structure](#repository-structure)
 - [Requirements](#requirements)
 - [Configure the system list](#configure-the-system-list)
 - [Connect two Windows VMs](#connect-two-windows-vms)
@@ -15,6 +16,17 @@ The program collects fixed logical disk information from one or more Windows com
 - [Error handling and limitations](#error-handling-and-limitations)
 - [Troubleshooting](#troubleshooting)
 - [License](#license)
+
+## Repository structure
+
+```text
+Windows-Disk-Info/
+|-- examples/
+|   |-- diskExport/
+|   `-- system.txt
+|-- Get-WindowsDiskInfo.ps1
+`-- README.md
+```
 
 ## Requirements
 
