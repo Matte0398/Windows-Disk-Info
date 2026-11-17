@@ -23,8 +23,13 @@ The program collects fixed logical disk information from one or more Windows com
 Windows-Disk-Info/
 |-- examples/
 |   |-- diskExport/
+|   |   |-- CSV/
+|   |   |   `-- diskExport-2026-09-25_19-39-31.csv
+|   |   `-- Log/
+|   |       `-- log-2026-09-25_19-39-31.log
 |   `-- system.txt
 |-- Get-WindowsDiskInfo.ps1
+|-- LICENSE
 `-- README.md
 ```
 
